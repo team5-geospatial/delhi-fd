@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fractal Dimension Analysis</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff;
+            margin: 0; /* Remove default body margin */
+            padding-bottom: 0; /* Remove bottom padding */
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-bottom: 30px;
+        }
+        h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        .intro {
+            margin-bottom: 30px;
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        .intro h2 {
+            margin-top: 0;
+        }
+        .analysis-section {
+            display: flex; /* Use flexbox for side-by-side layout */
+            background: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .analysis-text {
+            flex: 1; /* Take available space */
+            margin-right: 20px; /* Space between text and image */
+        }
+        .analysis-section img {
+            max-width: 300px; /* Set specific width */
+            height: auto; /* Maintain aspect ratio */
+            max-height: 400px; /* Set maximum height for the image */
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+        }
+        .figure-caption {
+            text-align: center;
+            margin-top: 10px;
+            font-style: italic;
+            color: #555;
+        }
+        footer {
+            background-color: #007BFF;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px; /* Ensure some space above the footer */
+            width: 100%;
+        }
+        @media (max-width: 768px) {
+            .analysis-section {
+                flex-direction: column; /* Stack on smaller screens */
+            }
+            .analysis-section img {
+                margin-bottom: 10px; /* Space below image */
+                margin-right: 0; /* Remove right margin */
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Fractal Dimension Analysis</h1>
+</header>
+
+
+
+    <section class="analysis-section">
+        <div class="analysis-text">
+            <h2>Analysis Section </h2>
+            <p>
+                The fractal image of Delhi's urban structure reveals a high-complexity growth pattern with a likely fractal dimension value between 1.6-1.9, indicating intense, irregular expansion. The dense, interconnected patterns reflect Delhi's radial-concentric development around historical cores (Old Delhi, Connaught Place) merging with chaotic suburban sprawl (Noida, Gurgaon). The texture shows strong linear corridors along metro/road networks (e.g., NH24, Ring Roads) with fragmented clusters in peripheral zones, highlighting both planned infrastructure and unregulated growth. This fractal complexity underscores Delhi's challenge in balancing organic expansion with sustainable planning, particularly in managing the urban-rural fringe where development appears most disordered. (Precise fractal metrics would require the original dataset.)
+            </p>
+        </div>
+        <div>
+            <img src="FD_DELHI.jpg" alt="Fractal Image">
+            <div class="figure-caption">
+                Figure 1: Description of the fractal image.
+            </div>
+        </div>
+    </section>
+
+    
+
+<footer>
+    <p>© 2024-2025 All Rights reserved</p>
+</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
